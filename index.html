@@ -3,11 +3,10 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
-
 	<meta name="apple-mobile-web-app-capable" content="yes">
 	<meta name="mobile-web-app-capable" content="yes">
 
-	<title>FlappyJS</title>
+	<title>Flappy Coin</title>
 
 	<script src="sprite.js"></script>
 
@@ -24,11 +23,6 @@
 	</style>
 </head>
 <body>
-<noscript>
-<p>For full functionality of this page it is necessary to enable JavaScript.
-Here are the <a href="http://www.enable-javascript.com/" target="_blank">
-instructions how to enable JavaScript in your web browser</a>.</p>
-</noscript>
 <script>
 
 var
@@ -239,7 +233,7 @@ pipes = {
  * @param  {MouseEvent/TouchEvent} evt tho on press event
  */
 function onpress(evt) {
-
+	
 	switch (currentstate) {
 
 		// change state and update bird velocity
